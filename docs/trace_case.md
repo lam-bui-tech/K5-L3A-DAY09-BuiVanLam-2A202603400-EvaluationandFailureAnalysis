@@ -10,7 +10,7 @@ python -m lab9.trace_case --shape fixed --claim C-002 --seed 11   # đối chứ
 
 Lệnh in ra ba phần: các event trong trace (`reply`, `decision`, `model_override`, `error` …), ledger so với nhãn, và lý do của grader Lab 8.
 
-## Mẫu điền (mỗi nhóm 1 case, lấy từ trial đang fail trong report)
+## Mẫu điền (mỗi bạn 1 case, lấy từ trial đang fail trong report)
 
 | Trường | Nội dung |
 |---|---|

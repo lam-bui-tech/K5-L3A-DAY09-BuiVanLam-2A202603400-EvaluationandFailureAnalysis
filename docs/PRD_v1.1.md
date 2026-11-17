@@ -23,7 +23,7 @@
 | pass_rate | năng lực | ≥ … và không giảm có ý nghĩa | có | |
 | db_fact_kept | năng lực (mức bước) | ≥ 0.95 | … | |
 | pass_5, cost_per_success | theo dõi | — | không | |
-| (FM-08 của nhóm) | | | | |
+| (metric FM-08 của bạn) | | | | |
 
 "Giảm có ý nghĩa" = CI 95% paired bootstrap của Δ (PR − baseline) nằm hoàn toàn dưới 0.
 

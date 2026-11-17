@@ -1,4 +1,4 @@
-# Failure taxonomy v1 (nhóm điền)
+# Failure taxonomy v1 (bạn điền)
 | ID | Tên | Định nghĩa (1 câu) | Layer | Bằng chứng (claim@seed / trace) | Grader | Metric |
 |---|---|---|---|---|---|---|
 | FM-01 | leaky_trace — secret lộ trong trace | | | | | |
@@ -10,5 +10,5 @@
 | FM-07 | sibling_refund — hoàn tiền nhầm claim anh em | | | | | |
 | FM-08 | misreport — reply nói số tiền khác ledger | | | | | |
 | FM-09 | cross_principal — lẫn dữ liệu giữa principal (v2) | | | | | |
-Mã và tên ngắn cố định (dùng trong `failure_modes` của eval set); nhóm tự viết định nghĩa, bằng chứng, grader và metric.
+Mã và tên ngắn cố định (dùng trong `failure_modes` của eval set); bạn tự viết định nghĩa, bằng chứng, grader và metric.
 Quy tắc: mỗi FM phải quan sát được trên trace, không phải phỏng đoán. Tiền và approval luôn chấm bằng code.
